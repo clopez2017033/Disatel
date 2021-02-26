@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  loginUrl: 'https://login.disatel.app/LOGIN/API/API_login.php?request=',
+  ajustesUrl: '/ROOT/API/API_ajustes.php?request=',
+  disatelUrl: '/ROOT/API/API_ot_ver.php?request=',
+  disatelEjecutar: '/ROOT/API/API_ot_ejecutar.php?request=',
+  fotoVehiculo: '/ROOT/API/API_imagen_vehiculo.php?',
+  fotoOrden: '/ROOT/API/API_imagen_ot.php?',
+  notification: '/ROOT/API/API_pushup_notification.php?request='
 };
 
 /*
